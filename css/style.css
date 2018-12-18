@@ -276,7 +276,20 @@ width: 180px
     display: block;
     text-align: left;
   }
+.mw-100{
+  max-width: 100%;
+}
 
+.advantages_container{
+display: flex;
+justify-content: center;
+}
+.advantages{
+  width: 70%;
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+}
 
 
   @media screen and (max-width: 768px) {
