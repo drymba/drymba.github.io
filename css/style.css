@@ -235,6 +235,7 @@ left: 200px;
 margin: 0 0 0 20px;
 width: 180px
 }
+
 .mw-100{
   max-width: 100%;
 }
@@ -247,8 +248,15 @@ justify-content: center;
   width: 70%;
   display:flex;
   justify-content: space-between;
-  text-align: center;
+  text-align: center;}
+  .advantages_item_football p, h3 {
+text-align: left;
 }
+ .advantages_item_football img{
+  text-align: center;
+  border-radius: 60px;
+  width: 70%;
+  }
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {
     display: none;
